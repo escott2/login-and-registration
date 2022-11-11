@@ -1,0 +1,106 @@
+/* Theme: 
+#0B1426 - blue 
+#6F8C51 - medium gray
+#AFD971 - bright gray
+#D8D9D7 - grey
+#A5A686 - warm gray beige */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    color: #0B1426;
+    padding: 20px 30px;
+}
+
+.main {
+    background-color: #D8D9D7;
+    padding: 50px 30px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.registration,
+.info-pane {
+    flex: 1;
+    padding: 10px;
+}
+
+.registration {
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-pane {
+    background-color: #AFD971;
+}
+
+.registration__field {
+    display: flex;
+    flex-direction: column;
+    min-width: 312px;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.registration__input {
+    border: none;
+    border-bottom: 2px solid #A5A686;
+    padding: 0 10px;
+}
+
+.registration__input:focus {
+    outline: none;
+    border-bottom: 2px solid #AFD971;
+}
+
+.registration__input,
+.registration__button {
+    height: 35px;
+}
+
+.registration__button {
+    background-color: #0B1426;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-width {
+    min-width: 312px;
+    width: 100%;
+}
+
+.registration__login-link-container {
+    display: flex;
+    padding-top: 35px;
+}
+
+.registration__login-link {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #0B1426;
+}
